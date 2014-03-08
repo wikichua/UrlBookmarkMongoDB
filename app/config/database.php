@@ -55,7 +55,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'database',
+			'database'  => 'URLBookmark',
 			'username'  => 'root',
 			'password'  => '',
 			'charset'   => 'utf8',
@@ -82,6 +82,14 @@ return array(
 			'password' => '',
 			'prefix'   => '',
 		),
+		'mongodb'	=> [
+			'driver'	=> 'mongodb',
+			'host'     	=> 'localhost',
+		    'port'     	=> 27017,
+		    'username' 	=> '',
+		    'password' 	=> '',
+		    'database' 	=> 'URLBookmark'
+		]
 
 	),
 
